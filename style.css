@@ -6,7 +6,7 @@ font-family: 'Lato', serif;
 
 /*  nav bar code begin*/
 
-header {position: -webkit-sticky;
+.test {position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 margin-bottom: 0;}
