@@ -112,10 +112,12 @@ textarea {
       text-align: center;
     }
 
-    figure {text-align: center;
+    figure {
+      text-align: center;
     padding-top: 0;
   margin-top: 0;
-margin-bottom: 10%;}
+margin-bottom: 10%;
+}
     .fa {
       padding: 20px;
       
