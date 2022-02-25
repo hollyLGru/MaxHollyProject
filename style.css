@@ -6,39 +6,40 @@ font-family: 'Lato', serif;
 
 /*  nav bar code begin*/
 
-.test {position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-margin-bottom: 0;}
-
-ul {
-  list-style-type: none;
-  margin: 0;
+header {position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   margin-bottom: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
-}
-
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  color: grey;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  font-size: 70%;
-  padding-bottom: 10px;
-  letter-spacing: 0.4rem;
-}
-
-li a:hover {
-  background-color: orange;
-  color: black;
-}
+  grid-column: 2/3;}
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 70%;
+    padding-bottom: 10px;
+    letter-spacing: 0.4rem;
+  }
+  
+  li a:hover {
+    background-color: orange;
+    color: black;
+  }
 /* nav bar end */
 
 .parallax {
@@ -110,6 +111,15 @@ p {text-align: center;
   background-size: cover;
 }
 
+.footerresults {
+  background-image: url("https://cdn.shopify.com/s/files/1/0522/3629/products/JungleBabyAnimalsPrintSetBlackandWhite_1341x.png?v=1607831300");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h4 {font-family: "Lato", serif;
     text-align: right;
     text-transform: uppercase;
@@ -150,4 +160,9 @@ h1 {
   text-align: center;
 }
 
+.foto {
+  text-align: center;
+  padding-top: 5%;}
+
+.foto h1 {padding-bottom: 5%;}
 

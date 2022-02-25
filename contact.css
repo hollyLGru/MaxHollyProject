@@ -169,12 +169,13 @@ margin-bottom: 10%;
     
    
     .footer {
-        background-image: url("https://cdn.now.howstuffworks.com/media-content/5abc8c8c-c4e9-4a25-b816-e607bf154372-640-360.jpg");
+        background-image: url("/images/ostrich.png");
         min-height: 350px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-origin: content-box;
         grid-template-columns: 1/3;
         margin-top: 0;
         padding-top: 0;
